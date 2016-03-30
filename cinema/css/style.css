@@ -1,10 +1,11 @@
 * {
 	font-family: sans-serif;
-	color: grey;
 }
+/*Secciòn header */
 
 .head {
 	margin: 10px;
+	background-color: #F0F0F0;
 }
 .head img {
 	width: 300px;
@@ -18,14 +19,19 @@
 	position: relative;
 	left: 20px;
 	top: 5px;
+}
+
+#ba-cadenabusqueda {
+	border: 1px solid #E0E0E0 ;
+	height: 30px;
+	background-color: #F0F0F0;
 
 }
 
 /*Inicio section big-image */
 
 .big-image img {
-	width: 100%;
-	height: 60%;
+	width: 100%
 }
 
 .principal {
@@ -47,17 +53,114 @@
 }
 
 /*Seccion peliculas-center*/
-.peliculas-center {
+.mustard {
 	background-color: #ffa500;
 }
 .peliculas-center img {
-	width: 100px;
+	width: 150px;
 	height: 200px;
+	margin: 10px;
 }
 
+/*Seccion video*/
+
+#youtube {
+	width: 100%;
+	height: 300px;
+}
+/*Seccion book-ticket*/
+.book-ticket {
+	margin-top: 50px;
+}
+
+.book-ticket h1 {
+	color: black;
+	margin: 20px;
+}
+
+#bth3 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+#bth4 {
+	color: #C0C0C0;
+	margin: 20px;
+}
+
+#bth5 {
+	color: #e69500;
+	margin: 20px;
+	font-size: 12px;
+}
+
+#boton-book-ticket {
+	color: white;
+	background-color: #e69500;
+	width: 160px;
+	height: 70px;
+	border-radius:5%; 
+	margin-left: 20px;
+	padding: 25px;
+
+}
+
+#boton-book-ticket a {
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+}
+
+/* Seccion book-ticket: news*/
+#newsh2 {
+	color: #C0C0C0;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.news h4 {
+	color:black;
+	margin-left: 0px;
+}
+
+.news {
+	color:#E8E8E8;
+	font-size: 10px;
+}
+
+.news hr {
+	width: 100%;
+	border: 1px solid 	#F0F0F0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.news a {
+	color: #ffa500;
+	text-decoration: none;
+	font-size: 12px;
+}
 /*Seccion peliculas-bottom*/
 
+.peliculas-bottom {
+	margin-top: 50px;
+}
 .peliculas-bottom img {
-	width: 100px;
-	height: 200px;
+	width: 100%;
+	height: 300px;
+}
+
+/*Seccion footer*/
+
+footer {
+	background-color: #F0F0F0;
+	color:#D0D0D0 ;
+	font-size: 12px;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+#plittle {
+	font-size: 10px;
 }

@@ -22,8 +22,7 @@
 				</div>
 				<div class="col-4">
 					<form action="search/" id="ba-cuadrobusqueda" method="get">
-  					<input id="ba-cadenabusqueda" name="q" />
-  					<input id="ba-enviar" type="submit" value="Buscar" />
+  						<input id="ba-cadenabusqueda" placeholder="Buscar"name="q" />
 					</form>
 				</div>				
 				</div>
@@ -56,7 +55,8 @@
 
 	<section class="peliculas-center">
 		<div class="container-fluid">
-			<div class="row">
+			<div class="mustard">
+				<div class="row">
 				<div class="col-2">
 					<img src="img/imagen1.jpg"/>
 				</div>
@@ -76,12 +76,17 @@
 					<img src="img/imagen6.jpg"/>
 				</div>
 			</div>
+			</div>
 		</div>
 	</section>
 
 	<section class="video">
 		<div class="container-fluid">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
+			<div class="row">
+				<div class="col-12">
+					<iframe id="youtube" src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>	
+				</div>
+			</div>
 		</div>
 	</section>
 
@@ -89,18 +94,20 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-4">
-					<h3>Don't be late,</h3>
+					<h3 id="bth3">Don't be late,</h3>
 					<h1>Book your ticket now!</h1>
-					<h4>Easy; simple & fast.</h4>
+					<h4 id="bth4">Easy; simple & fast.</h4>
 				</div>
 				<div class="col-2"></div>
 				<div class="col-6">
 					<div class="news">
-						<h3>News</h3>
+						<h2 id="newsh2">News</h2>
 						
-						<h6>Lorem Ipsum Dolor Sit Amet</h6>
+						<h4>Lorem Ipsum Dolor Sit Amet</h4>
 						<p>Nov 11 2014<br>
+
 							Lorem Ipsum dolor sit amet, consectetur adpisicing elit, sed do eulismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minin veniam, quis nositrud exectilacion ulfani laborals nisi ut aliquip ex ea commodo.</p>
+
 							<hr>
 
 					</div>
@@ -108,14 +115,16 @@
 			</div>
 			<div class="row">
 				<div class="col-4">
-					*boton*
+					<div id="boton-book-ticket">
+						<a href="#">BOOK TCKET</a>
+					</div>
 
-					<h5>Get Discount up to 10% if you are a menmber!</h5>
+					<p id="bth5">Get Discount up to 10% if you are a menmber!</p>
 				</div>
 				<div class="col-2"></div>
 				<div class="col-6">
 					<div class="news">
-						<h6>Lorem Ipsum Dolor Sit Amet</h6>
+						<h4>Lorem Ipsum Dolor Sit Amet</h4>
 						<p>Nov 11 2014<br>
 							Lorem Ipsum dolor sit amet, consectetur adpisicing elit, sed do eulismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minin veniam, quis nositrud exectilacion ulfani laborals nisi ut aliquip ex ea commodo.</p>
 							<hr>
@@ -149,15 +158,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-6">
-					<h5>Disclaimer:</h5>
+					<h3>Disclaimer:</h3>
 					<p>this is freebies and not an oficcial webside, I have no intention of disclose any movie. Brand, news. <br>
 					My goal here is to train or excercise my skill and share this freebies.
 					<br><br>
 					create by Fikristudio in <strong>Indonesia</strong></p>
 					<br><br>
-					<h6>Dribble.com/bagus_firi</h6>
-					<h6>Be.net/bagusfriki</h6>
-					<h6>www.friistudio.com</h6>
+					<p id="plittle">Dribble.com/bagus_firi<br>
+					Be.net/bagusfriki<br>
+					www.friistudio.com</p>
 				</div>
 				<div class="col-6"></div>
 			</div>
